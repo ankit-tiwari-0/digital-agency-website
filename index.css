@@ -22,7 +22,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 70px;
+    padding: 50px 100px;
     
 }
  
@@ -51,7 +51,7 @@ nav h4{
 }
 
 nav button{
-    padding: 18px 30px;
+    padding: 15px 30px;
     font-size: 22px;
     background-color: transparent;
     border-radius: 10px;
@@ -60,7 +60,7 @@ nav button{
 }
 
 .center{
-    padding:  70px;
+    padding:  70px 100px;
     height: 85%;
     width: 100%;
     display: flex;
@@ -69,21 +69,18 @@ nav button{
 .center-part1{
     
     height: 100%;
-    width: 80%;
+    width: 78%;
 }
-.center-part2{
-    height: 100%;
-    width: 56%;
-}
+
 
 .center-part1 h1{
     font-size: 90px;
     line-height: 1.2;
-    font-family:sans-serif ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
 .center-part1 p{
-   font-size: 40px;
+   font-size: 35px;
    width: 85%;
    margin-top: 30px;
    margin-bottom: 30px;
@@ -98,4 +95,18 @@ nav button{
     font-weight: 600;
     border: none;
     margin-bottom: 25px;
+}
+
+.center-part2{
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+.center-part2 img{
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding: 55px 0px ;
+    
 }
