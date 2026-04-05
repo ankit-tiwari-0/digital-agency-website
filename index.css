@@ -10,7 +10,7 @@ html,body{
     width: 100%;
 }
 
-section{
+section1{
     height: 100%;
     width: 100%;
     position: relative;
@@ -69,14 +69,14 @@ nav button{
 .center-part1{
     
     height: 100%;
-    width: 78%;
+    width: 56%;
 }
 
 
 .center-part1 h1{
     font-size: 75px;
     line-height: 1.3;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .center-part1 p{
@@ -97,18 +97,17 @@ nav button{
     margin-bottom: 25px;
 }
 
-.center-part2{
+.center-part2 {
     height: 100%;
-    width: 56%;
-    position: relative;
+    width: 44%;
+    display: flex;
+    justify-content: flex-end; /* push image right */
+    align-items: center;       /* center vertically */
 }
 
-.center-part2 img{
-    height: 100%;
-    position: absolute;
-    right: 0;
-    padding: 60px 0px ;
-    
+.center-part2 img {
+    height: auto;
+    width: 120%;
 }
 
 .section1boyyom{
@@ -120,4 +119,29 @@ nav button{
 
 .section1boyyom img{
     height: 50px;
+}
+
+.section2 .services{
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.services h3{
+   background-color: #9AE975;
+   font-weight: 500;
+   padding: 2px 10px 0 10px;
+   border-radius: 5px;
+   font-size: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.services p{
+    width: 40%;
+    font-size: 15px;
+    font-weight: 500;
+    
 }
