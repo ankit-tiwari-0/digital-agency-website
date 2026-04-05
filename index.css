@@ -74,13 +74,13 @@ nav button{
 
 
 .center-part1 h1{
-    font-size: 90px;
-    line-height: 1.2;
+    font-size: 75px;
+    line-height: 1.3;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
 .center-part1 p{
-   font-size: 35px;
+   font-size: 30px;
    width: 85%;
    margin-top: 30px;
    margin-bottom: 30px;
@@ -107,6 +107,17 @@ nav button{
     height: 100%;
     position: absolute;
     right: 0;
-    padding: 55px 0px ;
+    padding: 60px 0px ;
     
+}
+
+.section1boyyom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+
+.section1boyyom img{
+    height: 50px;
 }
