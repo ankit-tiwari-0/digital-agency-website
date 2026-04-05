@@ -195,6 +195,7 @@ nav button{
     font-weight: 500;
     background-color:#9AE975; 
     border-radius: 10px;
+     font-family: 'Noto Sans JP', sans-serif;
 }
 
 .elem-part1 h4{
@@ -203,6 +204,7 @@ nav button{
     font-size: 20px;
     font-weight: 500;
     gap: 10px;
+     font-family: 'Noto Sans JP', sans-serif;
 }
 
 .elem-part1 h4 i{
@@ -247,6 +249,7 @@ nav button{
    border-radius: 5px;
    font-size: 60px;
     font-family: 'Noto Sans JP', sans-serif;
+     font-family: 'Noto Sans JP', sans-serif;
 }
 
 .case p{
@@ -256,20 +259,50 @@ nav button{
     
 }
 
-.foter {
-    height: 250px;
-    width: 80%;
-    padding: 40px 120px;
-    background-color: black;
-
+.section4{
+    padding-bottom: 80px;
     display: flex;
     align-items: center;
-     justify-content: center;
-
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 20px;
+}
+.foter {
+    height: 350px;
+    width: 80%;
+    padding: 0px 100px;
+    background-color: rgb(40, 38, 38);
+    border-radius: 50px; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+     justify-content: space-evenly;
     margin: 0 auto; 
+    
 }
 
 .footer{
+    padding-top: 25px;
+}
 
+.footer p{
+    color: white;
+    width: 60%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer h4{
+    color: #9AE975;
+    margin-top: 40px;
+    font-size: 25px;
+  display: flex;
+  gap: 20px;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bor{
+     border-right: 2px solid white;
+     margin: 25px;
 }
 
