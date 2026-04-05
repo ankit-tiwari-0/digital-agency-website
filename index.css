@@ -230,3 +230,46 @@ nav button{
     background-color:white;
     color:black;
 }
+
+.section3 .case{
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.case h3{
+   background-color: #9AE975;
+   font-weight: 500;
+   padding: 2px 10px 0 10px;
+   border-radius: 5px;
+   font-size: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.case p{
+    width: 40%;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+.foter {
+    height: 250px;
+    width: 80%;
+    padding: 40px 120px;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+     justify-content: center;
+
+    margin: 0 auto; 
+}
+
+.footer{
+
+}
+
