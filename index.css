@@ -268,48 +268,57 @@ nav button{
     gap: 50px;
     margin-top: 20px;
 }
+
+/* Footer container */
 .foter {
-   min-height: 300px;
+    min-height: 80px;           /* smaller min-height */
     width: 80%;
-    padding: 0px 100px;
+    max-width: 1200px;
+    padding: 0 30px;            /* reduce side padding */
     background-color: rgb(40, 38, 38);
-    border-radius: 50px; 
+    border-radius: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     gap: 20px;
-     justify-content: space-evenly;
-    margin: 0 auto; 
-    
+    margin: 0 auto;
+    flex-wrap: wrap;            /* keep wrap for smaller screens */
 }
 
-.footer{
-    padding-top: 25px;
+/* Inner footer content */
+.footer {
+    padding: 15px 0;            /* reduce top/bottom padding */
 }
 
-.footer p{
+/* Paragraph inside footer */
+.footer p {
     color: white;
     width: 60%;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;            /* slightly smaller text */
+    margin: 0;                  /* remove extra margin */
 }
 
-.footer h4{
+/* Footer headings */
+.footer h4 {
     color: #9AE975;
-    margin-top: 40px;
-    font-size: 25px;
-  display: flex;
-  gap: 20px;
-   font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 20px;           /* reduce margin */
+    font-size: 20px;            /* smaller heading */
+    display: flex;
+    gap: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
-.bor{
-     border-right: 2px solid white;
-     margin: 25px;
+/* Bottom border if needed */
+.bor {
+    border-bottom: 2px solid white;
+    margin: 15px 0;             /* reduce margin */
 }
 
 /* ========================= */
 /* 📱 TABLET (<=1024px) */
 /* ========================= */
+
 @media (max-width: 1024px){
     .bor{
         border-right: none;
